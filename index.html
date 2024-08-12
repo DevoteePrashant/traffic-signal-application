@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traffic Light Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="myForm" method="get" style="text-align: center;">
+    <input type="text" name="Total_second" id="Total_second" placeholder="Total_second" />
+    <input type="text" name="set_time" id="set_time" placeholder="set_time"  value="2" />
+    <input type="text" name="set_time2" id="set_time2" placeholder="set_time2" value="15" />
+    <input type="text" name="set_time3" id="set_time3" placeholder="set_time3" value="4" />
+    <input type="text" name="set_time4" id="set_time4" placeholder="set_time4" value="31" />
+    <span id="Total_second_show"></span>
+    <button type="submit" id="submit">Set Time</button>
+  </form>
+
+  <div id="controlPanel">
+  <div id="traffic-light1" class="traffic-light">
+    <div id="bulb_show_time1"></div>
+    <div id="red1" class="bulb"></div>
+    <div id="yellow1" class="bulb"></div>
+    <div id="green1" class="bulb"></div>
+  </div>
+
+  <div id="traffic-light2" class="traffic-light">
+    <div id="bulb_show_time2"></div>
+    <div id="red2" class="bulb1"></div>
+    <div id="yellow2" class="bulb1"></div>
+    <div id="green2" class="bulb1"></div>
+  </div>
+
+  <div id="traffic-light3" class="traffic-light">
+    <div id="bulb_show_time3"></div>
+    <div id="red3" class="bulb2"></div>
+    <div id="yellow3" class="bulb2"></div>
+    <div id="green3" class="bulb2"></div>
+  </div>
+
+  <div id="traffic_light4" class="traffic-light">
+    <div id="bulb_show_time4"></div>
+    <div id="red4" class="bulb3"></div>
+    <div id="yellow4" class="bulb3"></div>
+    <div id="green4" class="bulb3"></div>
+  </div>
+</div>
+<script src="./js 2.js"></script>
+</body>
+</html>

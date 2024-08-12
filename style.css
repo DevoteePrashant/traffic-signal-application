@@ -1,0 +1,105 @@
+   #controlPanel {
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+   }
+
+   .traffic-light {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 20px;
+       background-color: #333;
+       padding: 10px;
+       border-radius: 15px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       transition: transform 0.3s;
+   }
+
+   .traffic-light:hover {
+       transform: scale(1.05);
+   }
+
+   .bulb,
+   .bulb1,
+   .bulb2,
+   .bulb3,
+   .bulb4 {
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color: black;
+       margin: 10px;
+   }
+
+
+   .red {
+       background-color: red;
+   }
+
+   .yellow {
+       background-color: yellow;
+   }
+
+   .green {
+       background-color: green;
+   }
+
+   #bulb_show_time1,
+   #bulb_show_time2,
+   #bulb_show_time3,
+   #bulb_show_time4 {
+       height: 100px;
+       width: 100px;
+       border: 3px solid rgb(3, 3, 3);
+       border-radius: 16px;
+       margin-top: 20px;
+       text-align: center;
+       line-height: 100px;
+       font-size: 27px;
+       font-weight: 900;
+       color: #f90505;
+       background-color: #b5b4b4;
+       transition: background-color 0.3s;
+   }
+
+   #traffic-light1,
+   #traffic-light2,
+   #traffic-light3,
+   #traffic-light4 {
+       width: 200px;
+   }
+
+   #controlPanel {
+       margin-top: 20px;
+       padding: 20px;
+       border: 2px solid #333;
+       border-radius: 15px;
+       background-color: #fff;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   }
+
+   form input,
+   form button {
+       margin: 5px;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       font-size: 16px;
+   }
+
+   form input:focus,
+   form button:focus {
+       outline: none;
+       border-color: #333;
+   }
+
+   form button {
+       background-color: #333;
+       color: #fff;
+       cursor: pointer;
+   }
+
+   form button:hover {
+       background-color: #555;
+   }
